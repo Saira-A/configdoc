@@ -4,60 +4,75 @@
 
 ## uv-iiif-config.json
 
-The uv-iiif-config.json file contains global settings that override individual configuration files for all formats.
+The uv-iiif-config.json file contains global settings that override the same settings in individual configuration files for all formats.
 
-#### dropEnabled
+### options:
+
+##### dropEnabled
 **Type**: `boolean`  
 **Default**: `true`  
 Determines if [drag and drop](https://iiif.io/guides/using_iiif_resources/) is enabled - the IIIF logo is located in the share/embed dialogue box.
 
-#### footerPanelEnabled
+##### footerPanelEnabled
 **Type**: `boolean`  
 **Default**: `true`  
 Determines if the footer panel is enabled.
 
-#### headerPanelEnabled
+##### headerPanelEnabled
 **Type**: `boolean`  
 **Default**: `true`  
 Determines if the header panel is enabled.
 
-#### leftPanelEnabled
+##### leftPanelEnabled
 **Type**: `boolean`  
 **Default**: `true`  
 Determines if the left panel is enabled.
 
-#### rightPanelEnabled
-**Type**: `boolean`  
-**Default**: `true`  
-Determines if the right panel is enabled.
-
-#### pagingEnabled
-**Type**: `boolean`  
-**Default**: `true`  
-Determines if paging is enabled.
-
-#### clickToZoomEnabled
-**Type**: `boolean`  
-**Default**: `false`  
-Determines if click to zoom is enabled.
-
-#### limitLocales
+##### limitLocales
 **Type**: `boolean`  
 **Default**: `false`  
 Determines if locales are limited.
 
-#### overrideFullScreen
+##### overrideFullScreen
 **Type**: `boolean`  
 **Default**: `false`  
 Determines if full-screen behavior is overridden.
 
-#### saveUserSettings
+##### pagingEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if paging is enabled.
+
+##### rightPanelEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the right panel is enabled.
+
+##### clickToZoomEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if click to zoom is enabled.
+
+##### saveUserSettings
 **Type**: `boolean`  
 **Default**: `true`  
 Determines if user settings are saved.
 
+### modules:
 
-## Options
+#### avCenterPanel
+
+##### mostSpecificRequiredStatement
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if user settings are saved.
+  
+#### downloadDialogue
+
+##### selectionEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if selection is enabled. 
 
 
 ## Panels
