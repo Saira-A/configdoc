@@ -74,6 +74,36 @@ Determines if user settings are saved.
 **Default**: `true`  
 Determines if selection is enabled. 
 
+#### headerPanel
+
+##### localeToggleEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if locale toggle is enabled.
+
+#### pagingHeaderPanel
+
+##### pagingToggleEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if paging toggle is enabled.
+
+#### openSeadragonCenterPanel
+
+##### autoHideControls
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if controls are hidden automatically.
+
+##### showHomeControl
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if home control is shown.
+
+##### showAdjustImageControl
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if adjust image control is shown. 
 
 ## Panels
 
