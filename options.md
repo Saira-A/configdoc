@@ -273,3 +273,122 @@ Determines if arrow keys can be used to navigate.
 
 
 ## Modules
+
+#### leftPanel
+
+##### expandFullEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if expand full is enabled.
+
+##### panelAnimationDuration
+**Type**: `number`  
+**Default**: `250`  
+*Repeated -  edit in contentLeftPanel*.                                                       
+Determines the duration of the panel expand/collapse animation.
+
+##### panelCollapsedWidth
+**Type**: `number`  
+**Default**: `30` 
+*Repeated -  edit in contentLeftPanel*.                                                 
+Width of the collapsed panel.
+
+##### panelExpandedWidth
+**Type**: `number`  
+**Default**: `255`  
+*Repeated -  edit in contentLeftPanel*.                     
+Width of the collapsed panel. 
+
+##### panelOpen
+**Type**: `boolean`  
+**Default**: `false`  
+*Repeated -  edit in contentLeftPanel*.                  
+Determines if the panel is open.
+
+##### autoExpandTreeEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if tree should expand automatically.
+
+##### autoExpandTreeIfFewerThan
+**Type**: `number`  
+**Default**: `20`  
+Number of items to auto expand tree.
+
+##### branchNodesExpandOnClick
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if branch nodes expand on click.
+
+##### branchNodesSelectable
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if branch nodes are selectable.
+
+##### defaultToTreeEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if tree is the default view.
+
+##### defaultToTreeIfGreaterThan
+**Type**: `number`  
+**Default**: `0`  
+Number of items to default to tree view (when defaultToTreeEnabled = true; defaults to 0).
+
+##### defaultToTreeIfCollection
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if collection should default to tree view (even if defaultToTreeEnabled = false).
+
+##### elideCount
+**Type**: `number`  
+**Default**: `40`  
+Number of characters to elide at.
+
+##### expandFullEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if expand full is enabled.
+
+##### galleryThumbChunkedResizingEnabled
+**Type**: `boolean`  
+**Default**: `true`                         
+**Compatible file types**: Openseadragon only.                    
+Determines if chunked resizing is enabled for gallery thumbnails.
+
+##### galleryThumbChunkedResizingThreshold
+**Type**: `number`  
+**Default**: `400`                             
+Threshold for chunked resizing of gallery thumbnails.
+
+##### galleryThumbHeight
+**Type**: `number`  
+**Default**: `320`  
+Height of the gallery thumbnail.
+
+##### galleryThumbLoadPadding
+**Type**: `number`  
+**Default**: `3`  
+Padding for loading gallery thumbnails.
+
+##### galleryThumbWidth
+**Type**: `number`  
+**Default**: `200`  
+Width of the gallery thumbnail.
+
+##### oneColThumbHeight
+**Type**: `number`  
+**Default**: `320`  
+Height of the one column thumbnail.
+
+##### oneColThumbWidth
+**Type**: `number`  
+**Default**: `200`  
+Width of the one column thumbnail.
+
+##### pageModeEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if page mode is enabled.
+
+
