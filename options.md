@@ -391,4 +391,66 @@ Width of the one column thumbnail.
 **Default**: `true`  
 Determines if page mode is enabled.
 
+##### panelAnimationDuration
+**Type**: `number`  
+**Default**: `250`              
+Determines the duration of the panel expand/collapse animation.
+
+##### panelCollapsedWidth
+**Type**: `number`  
+**Default**: `30`  
+Width of the collapsed panel.
+
+##### panelExpandedWidth
+**Type**: `number`  
+**Default**: `255`  
+Width of the expanded panel.
+
+##### panelOpen
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the panel is open.
+
+##### tabOrder
+**Type**: `string`  
+**Default**: ``  
+Order of the tabs. 
+
+##### thumbsCacheInvalidation
+  ###### enabled
+  **Type**: `boolean`  
+  **Default**: `true`  
+  ###### paramType
+  "?"                             
+Configuration for thumbs cache invalidation
+
+##### thumbsEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if thumbnails are enabled. 
+
+##### thumbsExtraHeight
+**Type**: `number`  
+**Default**: `8`  
+Extra height for thumbnails. 
+
+##### thumbsImageFadeInDuration
+**Type**: `number`  
+**Default**: `300`  
+Duration for thumbnails image fade in. 
+
+##### thumbsLoadRange
+**Type**: `number`  
+**Default**: `15`  
+Load range for thumbnails. 
+
+##### topCloseButtonEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+If the top button is enabled, add an additional close button for consistency.
+
+##### treeEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if tree is enabled. 
 
