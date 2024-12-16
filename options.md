@@ -454,3 +454,37 @@ If the top button is enabled, add an additional close button for consistency.
 **Default**: `true`  
 Determines if tree is enabled. 
 
+##### twoColThumbHeight
+**Type**: `number`  
+**Default**: `150`  
+Height of the two column thumbnail.
+
+##### twoColThumbWidth
+**Type**: `number`  
+**Default**: `90`  
+Width of the two column thumbnail.
+
+#### Dialogue
+
+##### topCloseButtonEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+If the top button is enabled, add an additional close button for consistency.
+
+#### downloadDialogue
+
+##### confinedImageSize
+**Type**: `number`  
+**Default**: `1000`  
+Size of the confined image.
+
+##### currentViewDisabledPercentage
+**Type**: `number`  
+**Default**: `90`  
+Percentage of the current view that is disabled.
+
+##### downloadCurrentViewEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if download of current view is enabled.
+
