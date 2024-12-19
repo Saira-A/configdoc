@@ -488,3 +488,13 @@ Percentage of the current view that is disabled.
 **Default**: `true`  
 Determines if download of current view is enabled.
 
+##### downloadWholeImageHighResEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if download of whole image in high resolution is enabled.
+
+##### downloadWholeImageLowResEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if download of whole image in low resolution is enabled.
+
