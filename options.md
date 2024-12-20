@@ -498,3 +498,69 @@ Determines if download of whole image in high resolution is enabled.
 **Default**: `true`  
 Determines if download of whole image in low resolution is enabled.
 
+##### maxImageWidth
+**Type**: `number`  
+**Default**: `5000`  
+Maximum width of the image.
+
+##### optionsExplanatoryTextEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if explanatory text for options is enabled.
+
+##### selectionEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if selection is enabled.
+
+#### footerPanel
+
+##### bookmarkEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if bookmarking is enabled.
+
+##### downloadEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if downloading is enabled.
+
+##### embedEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if embedding is enabled.
+
+##### feedbackEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if feedback is enabled.
+
+##### fullscreenEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if fullscreen mode is enabled.
+
+##### minimiseButtons
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if buttons are minimised.
+
+##### moreInfoEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if more information is enabled.
+
+##### openEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if opening is enabled.
+
+##### printEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if printing is enabled.
+
+##### shareEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if sharing is enabled.
