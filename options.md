@@ -564,3 +564,23 @@ Determines if printing is enabled.
 **Type**: `boolean`  
 **Default**: `true`  
 Determines if sharing is enabled.
+
+#### headerPanel
+Modify these options from within pagingHeaderPanel instead. 
+
+##### centerOptionsEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if center options are enabled.
+
+##### localeToggleEnabled
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if locale toggle is enabled - button within header to switch between English and Welsh.
+
+##### settingsButtonEnabled
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if settings button is enabled. 
+
+#### moreInfoRightPanel
