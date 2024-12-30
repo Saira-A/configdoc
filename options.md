@@ -584,3 +584,178 @@ Determines if locale toggle is enabled - button within header to switch between 
 Determines if settings button is enabled. 
 
 #### moreInfoRightPanel
+
+##### canvasDisplayOrder  
+**Type**: `string`  
+**Default**: `""`  
+Order in which canvases are displayed.
+
+##### canvasExclude  
+**Type**: `string`  
+**Default**: `""`  
+Canvases to exclude from display.
+
+##### copyToClipboardEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if copying to clipboard is enabled.
+
+##### expandFullEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if the expand full feature is enabled.
+
+##### limitToRange  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if download is limited to a specific range.
+
+##### manifestDisplayOrder  
+**Type**: `string`  
+**Default**: `""`  
+Order in which manifests are displayed.
+
+##### manifestExclude  
+**Type**: `string`  
+**Default**: `""`  
+Manifests to exclude from display.
+
+##### panelAnimationDuration  
+**Type**: `number`  
+**Default**: `250`  
+Duration of panel animations in milliseconds.
+
+##### panelCollapsedWidth  
+**Type**: `number`  
+**Default**: `30`  
+Width of the collapsed panel in pixels.
+
+##### panelExpandedWidth  
+**Type**: `number`  
+**Default**: `255`  
+Width of the expanded panel in pixels.
+
+##### panelOpen  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if the panel is open by default.
+
+##### rtlLanguageCodes  
+**Type**: `string`  
+**Default**: `"ar, ara, dv, div, he, heb, ur, urd"`  
+Language codes for right-to-left languages.
+
+##### showAllLanguages  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if all languages should be shown.
+
+##### textLimit  
+**Type**: `number`  
+**Default**: `4`  
+Limit for the amount of text displayed.
+
+##### textLimitType  
+**Type**: `string`  
+**Default**: `"lines"`  
+Type of the text limit (e.g., lines or characters).
+
+##### topCloseButtonEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if the top close button is enabled.
+
+#### MultiSelectDialogue
+
+##### galleryThumbChunkedResizingEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if chunked resizing is enabled for gallery thumbnails.
+
+##### galleryThumbChunkedResizingThreshold  
+**Type**: `number`  
+**Default**: `400`  
+Threshold for chunked resizing of gallery thumbnails.
+
+##### galleryThumbHeight  
+**Type**: `number`  
+**Default**: `320`  
+Height of the gallery thumbnail.
+
+##### galleryThumbLoadPadding  
+**Type**: `number`  
+**Default**: `3`  
+Padding for loading gallery thumbnails.
+
+##### galleryThumbWidth  
+**Type**: `number`  
+**Default**: `200`  
+Width of the gallery thumbnail.
+
+##### pageModeEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if page mode is enabled.
+
+##### topCloseButtonEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if the top close button is enabled.
+
+#### pagingHeaderPanel
+
+##### autoCompleteBoxEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if autocomplete box is enabled.
+
+##### autocompleteAllowWords  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if autocomplete for words is allowed.
+
+##### galleryButtonEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the gallery button is enabled.
+
+##### imageSelectionBoxEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if the image selection box is enabled.
+
+##### pageModeEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if page mode is enabled.
+
+##### pagingToggleEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the paging toggle is enabled.
+
+##### centerOptionsEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if center options are enabled.
+
+##### localeToggleEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if the locale toggle is enabled.
+
+##### settingsButtonEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the settings button is enabled.
+
+##### helpEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if help is enabled.
+
+##### modeOptionsEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if mode options are enabled.
+
