@@ -759,3 +759,137 @@ Determines if help is enabled.
 **Default**: `true`  
 Determines if mode options are enabled.
 
+#### centerPanel 
+
+##### titleEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the title is enabled.
+
+##### subtitleEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the subtitle is enabled.
+
+##### mostSpecificRequiredStatement  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the most specific required statement is displayed.
+
+##### requiredStatementEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the required statement is enabled.
+
+#### openSeadragonCenterPanel
+
+##### animationTime  
+**Type**: `number`  
+**Default**: `0.15`  
+Duration of the animation.
+
+##### autoHideControls  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if controls are hidden automatically.
+
+##### blendTime  
+**Type**: `number`  
+**Default**: `0`  
+Time taken to blend images.
+
+##### constrainDuringPan  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if panning is constrained.
+
+##### controlsFadeAfterInactive  
+**Type**: `number`  
+**Default**: `1500`  
+Time after which controls fade after inactivity.
+
+##### controlsFadeDelay  
+**Type**: `number`  
+**Default**: `250`  
+Delay before controls start to fade.
+
+##### controlsFadeLength  
+**Type**: `number`  
+**Default**: `250`  
+Duration of controls fade.
+
+##### defaultZoomLevel  
+**Type**: `number`  
+**Default**: `0`  
+Default zoom level.
+
+##### doubleClickAnnotationEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if annotation is enabled.
+
+##### immediateRender  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if rendering is immediate.
+
+##### maxZoomPixelRatio  
+**Type**: `number`  
+**Default**: `1.25`  
+Maximum pixel ratio for zoom.
+
+##### mostSpecificRequiredStatement  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the most specific required statement is displayed.
+
+##### navigatorPosition  
+**Type**: `string`  
+**Default**: `"BOTTOM_RIGHT"`  
+Position of the navigator.
+
+##### pageGap  
+**Type**: `number`  
+**Default**: `50`  
+Gap between pages.
+
+##### requiredStatementEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the required statement is enabled.
+
+##### showHomeControl  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if home control is shown.
+
+##### showAdjustImageControl  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if adjust image control is shown.
+
+##### subtitleEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the subtitle is enabled.
+
+##### titleEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the title is enabled.
+
+##### trimAttributionCount  
+**Type**: `number`  
+**Default**: `150`  
+Number of attributions to trim.
+
+##### visibilityRatio  
+**Type**: `number`  
+**Default**: `0.5`  
+Ratio of visibility.
+
+##### zoomToInitialAnnotation  
+**Type**: `boolean`  
+**Default**: `true`  
+Whether to zoom in to the first annotation on load.
+
