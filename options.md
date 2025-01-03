@@ -893,3 +893,173 @@ Ratio of visibility.
 **Default**: `true`  
 Whether to zoom in to the first annotation on load.
 
+#### searchFooterPanel
+
+##### autocompleteAllowWords  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if autocomplete for words is allowed.
+
+##### elideDetailsTermsCount  
+**Type**: `number`  
+**Default**: `20`  
+Number of terms to elide in details.
+
+##### elideResultsTermsCount  
+**Type**: `number`  
+**Default**: `10`  
+Number of terms to elide in results.
+
+##### forceImageMode  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if image mode is forced.
+
+##### pageModeEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if page mode is enabled.
+
+##### positionMarkerEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if position marker is enabled.
+
+##### bookmarkEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if bookmarking is enabled.
+
+##### downloadEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if downloading is enabled.
+
+##### embedEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if embedding is enabled.
+
+##### feedbackEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if feedback is enabled.
+
+##### fullscreenEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if fullscreen mode is enabled.
+
+##### minimiseButtons  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if buttons are minimised.
+
+##### moreInfoEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if more information is enabled.
+
+##### openEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if opening is enabled.
+
+##### printEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if printing is enabled.
+
+##### shareEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if sharing is enabled.
+
+#### shareDialogue
+
+##### embedEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if embed is enabled.
+
+##### embedTemplate  
+**Type**: `string`  
+**Default**: `"<iframe src=\"{0}\" width=\"{1}\" height=\"{2}\" allowfullscreen frameborder=\"0\" title=\"{3}\"></iframe>"`  
+Template for embedding.
+
+##### instructionsEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if instructions are enabled.
+
+##### shareEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if sharing is enabled.
+
+##### shareFrameEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if sharing frame is enabled.
+
+##### shareManifestsEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if sharing manifests is enabled.
+
+##### topCloseButtonEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if the top close button is enabled.
+
+#### mobileFooterPanel
+
+##### bookmarkEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if bookmarking is enabled.
+
+##### downloadEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if downloading is enabled.
+
+##### embedEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if embedding is enabled.
+
+##### feedbackEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if feedback is enabled.
+
+##### fullscreenEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if fullscreen mode is enabled.
+
+##### minimiseButtons  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if buttons are minimised.
+
+##### moreInfoEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if more information is enabled.
+
+##### openEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if opening is enabled.
+
+##### printEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if printing is enabled.
+
+##### shareEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if sharing is enabled.
