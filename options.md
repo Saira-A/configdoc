@@ -781,6 +781,78 @@ Determines if the most specific required statement is displayed.
 **Default**: `true`  
 Determines if the required statement is enabled.
 
+#### avCenterPanel
+
+##### autoPlay  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if auto play is enabled.
+
+##### includeParentInTitleEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if the parent is included in the title.
+
+##### posterImageRatio  
+**Type**: `number`  
+**Default**: `0.3`  
+Specifies the ratio of the poster image.
+
+##### subtitleMetadataField  
+**Type**: `string`  
+**Default**: `"contributor"`  
+Field used for subtitle metadata.
+
+##### titleEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the title is enabled.
+
+##### subtitleEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if subtitles are enabled.
+
+##### mostSpecificRequiredStatement  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the most specific required statement is used.
+
+##### requiredStatementEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the required statement is enabled.
+
+##### posterImageExpanded  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if the poster image is expanded.
+
+##### hideMediaError  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if media errors are hidden.
+
+##### enableFastForward  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if fast forward is enabled.
+
+##### enableFastRewind  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if fast rewind is enabled.
+
+##### limitToRange  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if playback is limited to a specified range.
+
+##### autoAdvanceRanges  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if ranges auto advance.
+
 #### openSeadragonCenterPanel
 
 ##### animationTime  
@@ -892,6 +964,33 @@ Ratio of visibility.
 **Type**: `boolean`  
 **Default**: `true`  
 Whether to zoom in to the first annotation on load.
+
+#### pdfCenterPanel
+
+##### titleEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if the title is enabled.
+
+##### subtitleEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if subtitles are enabled.
+
+##### mostSpecificRequiredStatement  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the most specific required statement is used.
+
+##### requiredStatementEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the required statement is enabled.
+
+##### usePdfJs  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if PDF.js should be used for PDF rendering.
 
 #### searchFooterPanel
 
