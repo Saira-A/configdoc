@@ -114,7 +114,7 @@ Determines if downloading is enabled.
 
 ## Options
 
-These options exist in the individual configuration json files for each of the file formats that UV supports, and can be modified in those files independently.
+These options exist in the individual configuration json files for each of the file formats that UV supports, and can be modified in those files independently. Not every option is available for every file format. 
 
 ##### allowStealFocus
 **Type**: `boolean`  
