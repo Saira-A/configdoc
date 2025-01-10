@@ -992,6 +992,50 @@ Determines if the required statement is enabled.
 **Default**: `true`  
 Determines if PDF.js should be used for PDF rendering.
 
+#### mediaElementCenterPanel
+
+##### autoPlayOnSetTarget  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if autoplay is triggered when the target is set.
+
+##### defaultHeight  
+**Type**: `number`  
+**Default**: `420`  
+Specifies the default height for the panel or content.
+
+##### defaultWidth  
+**Type**: `number`  
+**Default**: `560`  
+Specifies the default width for the panel or content.
+
+##### titleEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the title is enabled.
+
+##### subtitleEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if subtitles are enabled.
+
+##### mostSpecificRequiredStatement  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the most specific required statement is used.
+
+##### requiredStatementEnabled  
+**Type**: `boolean`  
+**Default**: `true`  
+Determines if the required statement is enabled.
+
+#### alephCenterPanel
+
+##### dracoDecoderPath  
+**Type**: `string`  
+**Default**: `"uv/lib/"`  
+Specifies the path to the Draco decoder for 3D rendering or compression decoding.
+
 #### searchFooterPanel
 
 ##### autocompleteAllowWords  
