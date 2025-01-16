@@ -1029,6 +1029,28 @@ Determines if the most specific required statement is used.
 **Default**: `true`  
 Determines if the required statement is enabled.
 
+#### modelViewerCenterPanel
+
+##### autoRotateEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if auto-rotation of the model is enabled.
+
+##### cameraChangeDelay  
+**Type**: `number`  
+**Default**: `500`  
+Specifies the delay (in milliseconds) before changing the camera position.
+
+##### doubleClickAnnotationEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if double-clicking annotations is enabled.
+
+##### interactionPromptEnabled  
+**Type**: `boolean`  
+**Default**: `false`  
+Determines if the interaction prompt is enabled.
+
 #### alephCenterPanel
 
 ##### dracoDecoderPath  
