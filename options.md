@@ -1,6 +1,6 @@
 # Configuration Options
 
-> This document provides a detailed explanation of the configuration options available within the Universal Viewer. Each option is described with its purpose, data type, default value, and applicable file formats, helping users customise and optimise the viewer's behaviour and appearance for specific needs.
+> This document provides a detailed explanation of the configuration options available within the Universal Viewer. Each option is described with its purpose, data type, and default value, helping users customise and optimise the viewer's behaviour and appearance for specific needs.
 
 ## uv-iiif-config.json
 
