@@ -31,7 +31,7 @@ Determines if the left panel is enabled.
 ##### limitLocales
 **Type**: `boolean`  
 **Default**: `false`  
-Determines if locales are limited.
+Determines if locales are limited - removes option to change language in settings dialogue.
 
 ##### overrideFullScreen
 **Type**: `boolean`  
@@ -65,7 +65,7 @@ Determines if user settings are saved.
 ##### mostSpecificRequiredStatement
 **Type**: `boolean`  
 **Default**: `true`  
-Determines if user settings are saved.
+
   
 #### downloadDialogue
 
@@ -742,7 +742,7 @@ Determines if center options are enabled.
 ##### localeToggleEnabled  
 **Type**: `boolean`  
 **Default**: `false`  
-Determines if the locale toggle is enabled.
+Determines if locale toggle is enabled - button within header to switch between English and Welsh. Has to be set to true on pagingHeaderPanel to work.
 
 ##### settingsButtonEnabled  
 **Type**: `boolean`  
