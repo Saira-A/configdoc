@@ -11,7 +11,7 @@ The uv-iiif-config.json file contains global options and modules settings that o
 ##### dropEnabled
 **Type**: `boolean`  
 **Default**: `true`  
-Determines if [drag and drop](https://iiif.io/guides/using_iiif_resources/) is enabled - the IIIF logo is located in the share/embed dialogue box.
+Determines if [drag and drop](https://iiif.io/guides/using_iiif_resources/) is enabled - the IIIF logo is located in the share dialogue box.
 
 ##### footerPanelEnabled
 **Type**: `boolean`  
@@ -31,7 +31,7 @@ Determines if the left panel is enabled.
 ##### limitLocales
 **Type**: `boolean`  
 **Default**: `false`  
-Determines if locales are limited - removes option to change language in settings dialogue.
+Determines if locales are limited - setting to true removes option to change language in settings dialogue.
 
 ##### overrideFullScreen
 **Type**: `boolean`  
@@ -114,7 +114,7 @@ Determines if downloading is enabled.
 
 ## Options
 
-These options exist in the individual configuration json files for each of the file formats that UV supports, and can be modified in those files independently. Not every option is available for every file format. 
+These options exist in the individual config.json files for each of the file formats that UV supports, and can be modified in those files independently. Not every option is available for every file format. 
 
 ##### allowStealFocus
 **Type**: `boolean`  
@@ -752,7 +752,12 @@ Determines if the settings button is enabled.
 ##### helpEnabled  
 **Type**: `boolean`  
 **Default**: `true`  
-Determines if help is enabled.
+Determines if help button is enabled.
+
+##### helpUrl  
+**Type**: `string`  
+**Default**: `https://universalviewer.io`  
+Determines URL the help button opens.
 
 ##### modeOptionsEnabled  
 **Type**: `boolean`  
