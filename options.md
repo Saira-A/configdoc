@@ -1,6 +1,11 @@
 # Configuration Options
 
 > This document provides a detailed explanation of the configuration options available within the Universal Viewer. Each option is described with its purpose, data type, and default value, helping users customise and optimise the viewer's behaviour and appearance for specific needs.
+>
+## Example Manifests:
+> AV manifest: https://iiif.io/api/cookbook/recipe/0026-toc-opera/manifest.json
+> 
+> Default extension: https://edsilv.github.io/test-manifests/defaultextension.json
 
 ## uv-iiif-config.json
 
@@ -36,12 +41,12 @@ Determines if locales are limited - setting to true removes option to change lan
 ##### overrideFullScreen
 **Type**: `boolean`  
 **Default**: `false`  
-Determines if full-screen behavior is overridden.
+Determines if full-screen behavior is overridden - setting to true disables ability to make UV full-screen. 
 
 ##### pagingEnabled
 **Type**: `boolean`  
 **Default**: `true`  
-Determines if paging is enabled.
+Determines if paging is enabled - use "pagingToggleEnabled" instead.
 
 ##### rightPanelEnabled
 **Type**: `boolean`  
@@ -79,26 +84,26 @@ Determines if selection is enabled.
 ##### localeToggleEnabled
 **Type**: `boolean`  
 **Default**: `false`  
-Determines if locale toggle is enabled.
+Determines if locale toggle is enabled - set in indiviual config.json files. Header button to switch between English and Welsh, 
 
 #### pagingHeaderPanel
 
 ##### pagingToggleEnabled
 **Type**: `boolean`  
 **Default**: `true`  
-Determines if paging toggle is enabled.
+Determines if paging toggle is enabled - when false, one up and two up buttons are removed.
 
 #### openSeadragonCenterPanel
 
 ##### autoHideControls
 **Type**: `boolean`  
-**Default**: `false`  
-Determines if controls are hidden automatically.
+**Default**: `false`  - `true` in config.json.
+Determines if image adjustment controls fade out. Set in OSD config.json. 
 
 ##### showHomeControl
 **Type**: `boolean`  
-**Default**: `true`  
-Determines if home control is shown.
+**Default**: `true` - `false` in config.json.
+Determines if home control is shown in image adjustment buttons - resets zoom level. Set in OSD config.json. 
 
 ##### showAdjustImageControl
 **Type**: `boolean`  
