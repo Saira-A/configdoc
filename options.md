@@ -6,6 +6,8 @@
 > AV manifest: https://iiif.io/api/cookbook/recipe/0026-toc-opera/manifest.json
 > 
 > Default extension: https://edsilv.github.io/test-manifests/defaultextension.json
+>
+> Simple collection: https://iiif.io/api/cookbook/recipe/0032-collection/collection.json
 
 ## uv-iiif-config.json
 
