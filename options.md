@@ -50,6 +50,8 @@ Determines if full-screen behavior is overridden - setting to true disables abil
 **Default**: `true`  
 Determines if paging is enabled - use "pagingToggleEnabled" instead.
 
+// doesn't do anything? 
+
 ##### rightPanelEnabled
 **Type**: `boolean`  
 **Default**: `true`  
@@ -63,7 +65,7 @@ Determines if click to zoom is enabled.
 ##### saveUserSettings
 **Type**: `boolean`  
 **Default**: `true`  
-Determines if user settings are saved.
+Determines if settings that have been changed from the default e.g reduce motion are saved on refresh.
 
 ### modules:
 
@@ -73,6 +75,7 @@ Determines if user settings are saved.
 **Type**: `boolean`  
 **Default**: `true`  
 
+// ?
   
 #### downloadDialogue
 
@@ -81,12 +84,14 @@ Determines if user settings are saved.
 **Default**: `true`  
 Determines if selection is enabled. 
 
+// ?
+
 #### headerPanel
 
 ##### localeToggleEnabled
 **Type**: `boolean`  
 **Default**: `false`  
-Determines if locale toggle is enabled - set in indiviual config.json files. Header button to switch between English and Welsh, 
+Determines if locale toggle is enabled - a header button which switches between English and Welsh. Set in config.json files. 
 
 #### pagingHeaderPanel
 
@@ -110,7 +115,7 @@ Determines if home control is shown in image adjustment buttons - resets zoom le
 ##### showAdjustImageControl
 **Type**: `boolean`  
 **Default**: `true`  
-Determines if adjust image control is shown. 
+Determines if adjust image control is shown - contrast/brightness/saturation.
 
 #### footerPanel
 
