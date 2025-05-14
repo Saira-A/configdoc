@@ -131,7 +131,7 @@ These options exist in the individual config.json files for each of the file for
 ##### allowStealFocus
 **Type**: `boolean`  
 **Default**: `false`  
-Determines if the focus can be stolen. 
+Determines if the page will automatically scroll to bring the viewer back into view after a refresh if it has been scrolled past.
 
 ##### authAPIVersion
 **Type**: `number`  
@@ -178,20 +178,26 @@ Determines if locales are limited.
 **Default**: `true`  
 Determines if double click annotation is enabled. 
 
+// ? 
+
 ##### metrics
 **Type**: `number`  
 **Default**: `sm: 0, md: 768, lg: 1024, xl: 1280`             
 Metrics array. 
+
+// ?
 
 ##### multiSelectionMimeType
 **Type**: `string`  
 **Default**: `application/zip`  
 MIME type for multi selection.
 
+// ? 
+
 ##### navigatorEnabled
 **Type**: `boolean`  
 **Default**: `true`  
-Determines if the navigator is enabled.
+Determines if the navigator is enabled - user can override this from the settings.
 
 ##### openTemplate
 **Type**: `string`  
@@ -213,10 +219,14 @@ Determines if paging is enabled.
 **Default**: `true`  
 Determines if paging option is enabled.
 
+// doesn't do anything?
+
 ##### pessimisticAccessControl
 **Type**: `boolean`  
 **Default**: `false`  
 Determines if access control is pessimistic.
+
+// ? 
 
 ##### preserveViewport
 **Type**: `boolean`  
@@ -241,7 +251,7 @@ Determines if click to zoom is enabled.
 ##### truncateThumbnailLabels
 **Type**: `boolean`  
 **Default**: `true`  
-Determines if setting to truncate thumbnail labels is enabled.
+Determines if setting to truncate long thumbnail labels is enabled.
 
 ##### searchWithinEnabled
 **Type**: `boolean`  
@@ -271,7 +281,7 @@ Storage for tokens.
 ##### useArrowKeysToNavigate
 **Type**: `boolean`  
 **Default**: `false`  
-Determines if arrow keys can be used to navigate.
+Determines if arrow keys can be used to navigate across pages.
 
 ##### zoomToSearchResultEnabled
 **Type**: `boolean`  
