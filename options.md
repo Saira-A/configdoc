@@ -439,11 +439,10 @@ Determines if the panel is open.
 Order of the tabs. 
 
 ##### thumbsCacheInvalidation
-  ###### enabled
   **Type**: `boolean`  
-  **Default**: `true`  
-  ###### paramType
-  "?"                             
+  **Default**: `true`
+  
+  **paramType**: `?`                                                     
 Configuration for thumbs cache invalidation
 
 ##### thumbsEnabled
@@ -1017,7 +1016,7 @@ Determines if the required statement is enabled.
 ##### usePdfJs  
 **Type**: `boolean`  
 **Default**: `true`  
-Determines if PDF.js should be used for PDF rendering.
+Determines if PDF.js should be used for PDF rendering - uses the UV's interface instead of default PDF viewer. 
 
 #### mediaElementCenterPanel
 
@@ -1183,6 +1182,8 @@ Template for embedding.
 **Type**: `boolean`  
 **Default**: `false`  
 Determines if instructions are enabled.
+
+// doesn’t display?
 
 ##### shareEnabled  
 **Type**: `boolean`  
