@@ -8,6 +8,8 @@
 > Default extension: https://edsilv.github.io/test-manifests/defaultextension.json
 >
 > Simple collection: https://iiif.io/api/cookbook/recipe/0032-collection/collection.json
+>
+> Model viewer: https://biiif-template-example-3kntb3jpl-mnemoscene.vercel.app/3d/index.json
 
 ## uv-iiif-config.json
 
@@ -1060,7 +1062,7 @@ Determines if the required statement is enabled.
 ##### autoRotateEnabled  
 **Type**: `boolean`  
 **Default**: `false`  
-Determines if auto-rotation of the model is enabled.
+Determines if auto-rotation of the model is enabled - model rotates automatically when not being interacted with.
 
 ##### cameraChangeDelay  
 **Type**: `number`  
@@ -1075,7 +1077,7 @@ Determines if double-clicking annotations is enabled.
 ##### interactionPromptEnabled  
 **Type**: `boolean`  
 **Default**: `false`  
-Determines if the interaction prompt is enabled.
+Determines if the interaction prompt is enabled - cursor appears demonstrating how to rotate the model. 
 
 #### alephCenterPanel
 
