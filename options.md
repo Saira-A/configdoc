@@ -52,8 +52,6 @@ Determines if full-screen behavior is overridden - setting to true disables abil
 **Default**: `true`  
 Determines if paging is enabled - use "pagingToggleEnabled" instead.
 
-// doesn't do anything? 
-
 ##### rightPanelEnabled
 **Type**: `boolean`  
 **Default**: `true`  
@@ -77,16 +75,12 @@ Determines if settings that have been changed from the default e.g reduce motion
 **Type**: `boolean`  
 **Default**: `true`  
 
-// ?
-  
 #### downloadDialogue
 
 ##### selectionEnabled
 **Type**: `boolean`  
 **Default**: `true`  
 Determines if selection is enabled. 
-
-// ?
 
 #### headerPanel
 
@@ -178,23 +172,18 @@ Determines if locales are limited.
 ##### doubleClickAnnotationEnabled
 **Type**: `boolean`  
 **Default**: `true`  
-Determines if double click annotation is enabled. 
-
-// ? 
+Determines if double click to annotate is enabled.
 
 ##### metrics
 **Type**: `number`  
 **Default**: `sm: 0, md: 768, lg: 1024, xl: 1280`             
 Metrics array. 
 
-// ?
 
 ##### multiSelectionMimeType
 **Type**: `string`  
 **Default**: `application/zip`  
 MIME type for multi selection.
-
-// ? 
 
 ##### navigatorEnabled
 **Type**: `boolean`  
@@ -221,14 +210,10 @@ Determines if paging is enabled.
 **Default**: `true`  
 Determines if paging option is enabled.
 
-// doesn't do anything?
-
 ##### pessimisticAccessControl
 **Type**: `boolean`  
 **Default**: `false`  
 Determines if access control is pessimistic.
-
-// ? 
 
 ##### preserveViewport
 **Type**: `boolean`  
@@ -1184,8 +1169,6 @@ Template for embedding.
 **Type**: `boolean`  
 **Default**: `false`  
 Determines if instructions are enabled.
-
-// doesn’t display?
 
 ##### shareEnabled  
 **Type**: `boolean`  
